@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box; /* faz com que a borda seja parte da dimensão da div */
+
+}
+body {
+    background-color: azure;
+    margin: 0;
+}
+div {
+    border: blue dashed 2px; /* borda azul tracejada e com 2 pixels de espessura */
+    color:brown;
+    text-align: center;
+}
+#A , #B , #C , #D {
+    width: 100px;
+    height: 100px;
+}
+
+#A{
+    background: url(dama-de-copas.png) top center;
+    background-size: cover; 
+    width: 400px;
+    height: 400px;
+    position: relative; /*posição relativa*/
+    transform: rotate(45deg);   /*ratação de 45 graus*/
+    }
+
+#B{
+    background: url(dama-de-espadas.png) top center;
+    background-size: cover; 
+    width: 200px;
+    height: 200px;
+    position: relative; /*posição relativa*/
+  }
+
+#C{
+    background: url(dama-de-ouro.png) top center;
+    background-size: cover; 
+    position: absolute; /*posição absoluta*/
+    right: 0;
+    bottom: 0;
+   }
+
+#D{
+    background: url(dama-de-paus.png) top center;
+    background-size: cover; 
+    position: absolute; /*posição absoluta*/
+    right: 0;
+    bottom: 0;
+    }
+
+
+
+
+
+
+
+
+
+

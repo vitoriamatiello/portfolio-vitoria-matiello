@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box; /* faz com que a borda seja parte da dimensão da div */
+
+}
+body {
+    background-color: azure;
+    margin: 0;
+}
+div {
+    border: blue dashed 2px; /* borda azul tracejada e com 2 pixels de espessura */
+    color: white;
+    text-align: center;
+}
+#logotipo , #publicidade  {
+    width: 50%;
+    height: 20vh;
+    background-color: aquamarine; 
+    float: left;
+}
+#menuSup , #rodape {
+    width: 100%;
+    height: 5vh;
+    background-color: cadetblue;
+    clear: both;
+}
+#rodape {
+    background-color: black;
+}
+#menuEsq , #menuDir {
+    width: 25%;
+    height: 50vh;
+    background-color: blueviolet;
+    float: left;
+}
+#conteudo {
+    width: 50%;
+    height: 50vh;
+    background-color: orange;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

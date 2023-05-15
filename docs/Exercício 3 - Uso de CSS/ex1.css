@@ -1,0 +1,21 @@
+body {
+    background-color: azure;
+    margin: 0;
+}
+#A {
+    width: 100%;
+    height: 30vh;
+    background-color: yellow;
+}
+#B  {
+    width: 50%;
+    height: 70vh;
+    background-color: blue;
+    float: left;
+}
+#C {
+    width: 50%;
+    height: 70vh;
+    background-color: green;
+    float: right;
+}
